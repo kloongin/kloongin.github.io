@@ -44,10 +44,15 @@ categories: 成长记录
 - rslsync每周同步书单
 - science,the economic,BloombergBusiness杂志
 - 待定  
+
 ## 美剧（待定）
+
 ## 主机游戏（待定）
+
 - 生化危机7
+
 - 待定
+
 ## 旅游
 - 西藏  
 1：时间（30天）  
