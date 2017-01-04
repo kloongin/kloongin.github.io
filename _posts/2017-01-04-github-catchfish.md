@@ -12,14 +12,17 @@ tags: 实用小工具
 
 # talk is cheap,show the code   
 
-## CatchFish.sh    
+## CatchFish.sh       
 
+   
+   
 ```bash    
     while true; do lua briberymoney.lua adb_weixin_lucky_money; done  
 ```    
 
 
-## briberymoney.lua
+## briberymoney.lua   
+
 ```lua
     adb_weixin_lucky_money = function ()
    while true do
