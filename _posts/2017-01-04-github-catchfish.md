@@ -8,12 +8,17 @@ date:   2017-01-04 12:43:08 +0800
 tags: 实用小工具
 ---
 # 缘由
-前段时间刚好别人让我找找可用微信抢红包的代码，翻翻网盘里都是写老旧的玩意估计漏洞都被封了，最近也很忙偶尔看到小扳手这个工具想想就利用它做个穷举的函数监听得了！
-# talk is cheap,show the code
-## CatchFish.sh
+前段时间刚好别人让我找找可用微信抢红包的代码，翻翻网盘里都是写老旧的玩意估计漏洞都被封了，最近也很忙偶尔看到小扳手这个工具想想就利用它做个穷举的函数监听得了！     
+
+# talk is cheap,show the code   
+
+## CatchFish.sh    
+
 ```bash    
     while true; do lua briberymoney.lua adb_weixin_lucky_money; done  
-```
+```    
+
+
 ## briberymoney.lua
 ```lua
     adb_weixin_lucky_money = function ()
@@ -37,10 +42,15 @@ tags: 实用小工具
       end
    end
 end
-```
-## 配置环境
-- 微信小扳手
-- android手机打开开发者模式支持调试（iphone党自行研究小扳手也有mac版）
-- linux环境,windows请自行配置cygwin
+```    
+
+## 配置环境   
+
+- 微信小扳手   
+
+- android手机打开开发者模式支持调试（iphone党自行研究小扳手也有mac版）   
+
+- linux环境,windows请自行配置cygwin    
+
 # 告诫
 抢红包游戏而已,光抢不发就有违初衷了- -！！
