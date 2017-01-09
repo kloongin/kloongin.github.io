@@ -10,7 +10,7 @@ tags: 代码海洋
 ---
 # 工作  
 工作经常采集大量excel表,所以需要用到合并
-'''python
+```python
 import openpyxl
 import os
 
@@ -36,4 +36,5 @@ if __name__ == '__main__':
 
     wbout.save( outfile )
 
-'''
+```
+## 送人玫瑰手有余香
