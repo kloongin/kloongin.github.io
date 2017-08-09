@@ -13,15 +13,7 @@ layout: default
       <span id="busuanzi_container_page_pv"> | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>
     </p>
     </div>
-
-  </header>
-
-  <section class="post">
-    {{ content }}
-
-  </section>
-</article>
-<div id="disqus_thread"></div>
+  <div id="disqus_thread"></div>
 <script>
 
     /**
@@ -41,6 +33,14 @@ layout: default
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </header>
+
+  <section class="post">
+    {{ content }}
+
+  </section>
+</article>
 
 {% include new-old.html %}
 {% include comments.html %}
